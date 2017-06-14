@@ -20,7 +20,6 @@ ReactDOM.render(
   <div>
     <Pagination
       total={85}
-      showTotal={total => `Total ${total} items`}
       pageSize={20}
       defaultCurrent={1}
     />
